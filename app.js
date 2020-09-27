@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $('.list').click(function () {
       const value = $(this).attr('data-filter');
-      if (value == 'all') {
+      if (value == 'car') {
         $('.itemBox').show('1000');
       }
       else {
